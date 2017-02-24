@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	margin: 2em auto;
+	background-color: #3a6a8e;
+}
+body {
+	border: 0.5em solid #207e32;
+	font-family: Arial, Verdana, georgia, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.3;
+	padding: 0.5em;
+	background-color: #fff;
+}
+.menu ul {
+	max-width: 45%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.menu li {
+	display: inline-block;
+	margin: 0.5em;
+}
+.menu a {
+	text-decoration: none;
+	color: #366cb6;
+}
+.menu li a:hover {
+	color: #772472;
+	text-decoration: none;
+}
+h1, h2 {
+	font-family: georgia, times, Verdana, sans-serif;
+	color: #207e32;
+}
+h1 {
+	font-size: 250%;
+	max-width: 40%;
+	float: left;
+}
+h2 {
+	font-size: 130%;
+	border-bottom: 0.1em dotted #336748;
+	clear: both;
+}
+.general {
+	max-width: 55%;
+	float: left;
+	clear: both;
+}
+.facts {
+	max-width: 40%;
+	float: right;
+}
+#slides {
+	margin: 75px auto;
+	position: relative;
+	width: 350px;
+	height: 250px;
+	padding: 15px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0, 5);
+}
+.sports {
+	max-width: 25%;
+	float: left;
+	padding-right: 0.3em;
+	clear: both;
+}
+.camp {
+	max-width: 65%;
+	float: right;
+	padding-left: 0.3em;
+}
+.images{
+	clear: both;
+}
+.images img {
+	margin-top: 1em;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+#data {
+	border: 0.1em solid #1b295c;
+}
+#data th, td {
+	border: 0.1em solid #1b295c;
+	text-align: center;
+}
+.levels {
+	max-width: 40%;
+	float: left;
+	padding: 0.5em 1em 0.5em 0.5em;
+	margin-bottom: 1em;
+	clear: both;
+}
+.cost {
+	max-width: 60%;
+	float: right;
+	padding: 0.5em 0.5em 0.5em 1em;
+	margin-bottom: 1em; 
+}
+footer {
+	font-size: 85%;
+	font-style: italic;
+	clear: both;
+}
+
+
+@media screen and (max-width: 750px){
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.menu li {
+	display: block;
+	margin: 0.5em;
+	float: none;
+}
+.general {
+	max-width: 100%;
+	float: none;
+}
+.facts {
+	max-width: 100%;
+	float: none;
+}
+.sports {
+	max-width: 100%;
+	float: none;
+	padding: 0;
+}
+.camp {
+	max-width: 100%;
+	float: none;
+	padding: 0;
+}
+.levels {
+	max-width: 100%;
+	float: none;
+	padding: 0;
+	margin-bottom: 1em;
+}
+.cost {
+	max-width: 100%;
+	float: none;
+	padding: 0;
+	margin-bottom: 1em; 
+}
+}
+
+@media screen and (max-width: 400px){
+	h1{
+		max-width: 100%;
+		float: none;
+	}
+	.menu ul{
+		max-width: 100%;
+		float: left;
+		margin-bottom: 1em;
+	}
+	.menu li{
+		margin: 0;
+	}
+}
