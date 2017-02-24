@@ -1,0 +1,33 @@
+@media screen and (min-width: 960px) {
+  header ul {
+    background-color: green; }
+
+  header ul li {
+    padding: 1em; }
+
+  header ul li a {
+    color: white; }
+
+  .main {
+    max-width: 97%; }
+
+  #a {
+    float: left;
+    max-width: 30%;
+    border: 0.3em solid transparent;
+    padding-right: 1.7em; }
+
+  #b {
+    float: left;
+    max-width: 30%;
+    border: 0.3em solid transparent;
+    padding-right: 1.7em; }
+
+  #c {
+    float: left;
+    max-width: 30%;
+    border: 0.3em solid transparent; }
+
+   footer{
+    clear: both; }
+  }
