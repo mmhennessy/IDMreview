@@ -1,29 +1,10 @@
-$(document).ready(function(){
-	$("a").click(function resise(e){
-		$this.css ({
-			height: "400px", width: "600px"
-		});
-		});
+$("body").on("click", "img", function() {
+	console.log("CLICK!");
 
-	$("b").click(function resise(e){
-		$this.css ({
-			height: "400px", width: "600px"
-		});
-		});
-
-
-	$("c").click(function resise(e){
-		$this.css ({
-			height: "400px", width: "600px"
-		});
-		});
-
-
-	$("d").click(function resise(e){
-		$this.css ({
-			height: "400px", width: "600px"
-		});
-		});
-	
-
-	))
+	if ($(this).hasClass("zoom")) {
+		$(this).css({height: "50%", width: "50%"}).removeClass("zoom");
+	} else {
+		$("img.zoom").css({height: "50%", width: "50%"}).removeClass("zoom");
+		$(this).css({height: "50%", width: "50%"}).addClass("zoom");
+}});
+ 
