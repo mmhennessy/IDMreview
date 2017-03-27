@@ -17,7 +17,7 @@ body {
 	max-width: 45%;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding-right: 4.5em;
 	float: right;
 }
 .menu li {
@@ -40,6 +40,7 @@ h1 {
 	font-size: 250%;
 	max-width: 40%;
 	float: left;
+	padding-left: 0.5em;
 }
 h2 {
 	font-size: 130%;
@@ -47,15 +48,20 @@ h2 {
 	clear: both;
 }
 .general {
-	max-width: 55%;
+	max-width: 45%;
 	float: left;
 	clear: both;
+	padding-left: 2em;
 }
 .facts {
-	max-width: 40%;
+	max-width: 45%;
 	float: right;
+	padding-right: 1.3em;
 }
-#slides {
+.headline h2 {
+	padding-left: 1.3em;
+}
+#slideshow {
 	margin: 75px auto;
 	position: relative;
 	width: 350px;
@@ -63,16 +69,25 @@ h2 {
 	padding: 15px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0, 5);
 }
+
+#slideshow > div {
+	position: absolute;	
+	top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
 .sports {
-	max-width: 25%;
+	max-width: 45%;
 	float: left;
-	padding-right: 0.3em;
+	padding-left: 1.3em;
 	clear: both;
 }
 .camp {
-	max-width: 65%;
+	max-width: 45%;
 	float: right;
-	padding-left: 0.3em;
+	padding-right: 1.3em;
 }
 .images{
 	clear: both;
@@ -90,17 +105,20 @@ h2 {
 	text-align: center;
 }
 .levels {
-	max-width: 40%;
+	max-width: 45%;
 	float: left;
-	padding: 0.5em 1em 0.5em 0.5em;
+	padding: 0.5em 0.5em 0.5em 1.5em;
 	margin-bottom: 1em;
 	clear: both;
 }
 .cost {
-	max-width: 60%;
+	max-width: 45%;
 	float: right;
-	padding: 0.5em 0.5em 0.5em 1em;
+	padding: 0.5em 2em 0.5em 0.5em;
 	margin-bottom: 1em; 
+}
+.request{
+	padding-left: 1.5em;
 }
 footer {
 	font-size: 85%;
@@ -112,13 +130,11 @@ footer {
 @media screen and (max-width: 750px){
 
 .menu ul {
-	margin: 0;
 	padding: 0;
 	text-align: left;
 }
 .menu li {
 	display: block;
-	margin: 0.5em;
 	float: none;
 }
 .general {
@@ -139,6 +155,9 @@ footer {
 	float: none;
 	padding: 0;
 }
+.request{
+	padding-left: 1.5em;
+}
 .levels {
 	max-width: 100%;
 	float: none;
@@ -148,8 +167,10 @@ footer {
 .cost {
 	max-width: 100%;
 	float: none;
+	padding: 0; 
+}
+.request {
 	padding: 0;
-	margin-bottom: 1em; 
 }
 }
 
