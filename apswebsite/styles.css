@@ -1,8 +1,6 @@
 @media screen and (min-width: 320px){
 html{
   margin: auto;
-  max-width: 2000px;
-  border: 0.5em solid #214d64;
   background-color: transparent;
 }
 
@@ -20,7 +18,7 @@ h1{
 
 h2{
   font-size: 170%;
-  clear: both;
+  padding-top: 1.5em;
 }
 
 h3{
@@ -66,9 +64,17 @@ p{
   clear: both;
 }
 
-#slides img {
-  padding: 1em;
+#enlarge img {
+  padding: 0.5em;
   margin-top: 1em;
+  transition: 1s ease;
+}
+
+#enlarge img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
 }
 
 .photos img{
@@ -79,34 +85,22 @@ p{
 
 @media screen and (min-width: 640px){
 
-html{
-	margin: auto;
-	max-width: 2000px;
-	border: 0.5em solid #214d64;
+html {
 	background-color: #a4d8dd;
 }
 
-h1, h2, h3 {
-	font-family: times, serif;
-	color: #476121;
-  text-decoration: underline;
-}
-
 h1{
-	font-size: 250%;
 	max-width: 40%;
 	float: left;
-  margin-left: 1em;
+  margin-left: 0.8em;
 }
 
 h2{
-	font-size: 170%;
   margin-left: 1.3em;
 	clear: both;
 }
 
 h3{
-	font-size: 150%;
   margin-left: 1.3em;
 }
 
@@ -119,16 +113,12 @@ header ul {
 header ul li {
   display: inline-block;
   position: relative;
-  padding-left: 0.5em;
+  padding-left: 0.2em;
+  margin-top: 0.1em;
 }
 
 header li ul {
   display: none;
-}
-
-header a {
-  text-decoration: none;
-  color: #214d64;
 }
 
 header li a:hover {
@@ -137,40 +127,54 @@ header li a:hover {
 }
 
 header li:hover ul {
-  display: block;
-  position: absolute;
-}
-
-header li:hover li {
-  float: none;
-}
-
-p, li{
-	font-family: arial. sans-serif;
+  padding-left: 0.3em;
 }
 
 p{
-	font-size: 100%;
 	line-height: 1.5em;
   padding-left: 2em;
   padding-right: 2em;
-	clear: both;
 }
 
-#slides img{
-  margin-left: 2em;
+#enlarge img{
+  margin-left: 1.3em;
 }
 
+#enlarge img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .photos img{
-	max-width: 100%;
-}
-
-#kit{
   margin-left: 2em;
 }
 
-#sign{
-  margin-left: 2em;
+#tropics {
+  max-width: 95%;
+}
+
+#desert {
+  max-width: 93%;
+}
+
+#mod {
+  max-width: 92%;
+}
+
+#cont {
+  max-width: 90%;
+}
+
+#ten {
+  max-width: 95%;
+}
+
+#prep {
+  max-width: 93%;
+}
+
+#tundra {
+  max-width: 96%;
 }
 
 .campfire {
