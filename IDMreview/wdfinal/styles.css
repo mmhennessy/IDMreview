@@ -1,0 +1,291 @@
+@media screen and (min-width: 320px){
+
+html {
+	margin: auto;
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 200%;
+	color: #424ca0;
+	padding-left: 0.1em;
+}
+.row_1 {
+	height: 10%;
+	width: 100%;
+}
+.col_h {
+	float: left;
+	max-width: 100%;
+}
+.col_main-nav {
+	max-width: 100%;
+}
+.col_main-nav ul {
+	text-align: left;
+	padding-right: 0.3em;
+	padding-top: 0.2em;
+}
+.col_main-nav li {
+	display: block;
+	padding-right: 0.3em;
+	padding-top: 0.2em;
+}
+
+.col_main-nav li a {
+    padding: 0.1em;
+    text-decoration: none;
+    color: #32720c;
+}
+.col_main-nav li a:hover {
+	text-decoration: none;
+}
+.col_main-nav li ul {
+	display: none;
+	position: absolute;
+	padding: 0;
+}
+.col_main-nav li:hover ul {
+	display: block;
+}
+.col_main-nav li li {
+	float: none;
+	border-bottom: 0.1em solid #424ca0;
+}
+h2 {
+	font-family: verdana, sans-serif;
+	font-size: 130%;
+	color: #a62931;
+	clear: both;
+	padding-top: 1em;
+}	
+h3 {
+	font-size: 1.1em;
+	font-family: Arial, sans-serif;
+	color: #424ca0;
+	margin-bottom: 0px;
+}
+p {
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+.images h2 {
+	padding-top: 0.5em;
+}
+.images img {
+	margin-top: 0.1em;
+	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 1em;
+	max-width: 100%;
+}
+.signs img {
+	margin-top: 0.4em;
+	margin-left: 0.1em;
+	padding-left: 0.3em;
+	max-width: 100%;
+}
+.row_2A {
+	width: 100%;
+	margin: 0.1em 0.1em 0.3em 0.1em;
+	height: 35%;
+}
+.col_1A {
+	float: none;
+	max-width: 99%;
+	margin-left: 0.3em;
+	
+}
+.col_2A {
+	float: none;
+	max-width: 99%;
+	margin-left: 0.3em;
+	
+}
+.col_2A img {
+	padding-top: 0.5em;
+	max-width: 100%;
+}
+.col_3A {
+	float: none;
+	max-width: 99%;	
+	margin-right: 0.3em;
+}
+.col_4A {
+	float: none;
+	max-width: 99%;
+	margin-right: 0.2em;
+}
+.row_2B {
+	width: 100%;
+	margin: 0.1em 0.3em 0.1em 0.3em;
+	height: 37%;
+}
+.col_1B {
+	float: none;
+	width: 99%;
+	margin-bottom: 0.1em;
+	clear: none;	
+}
+.col_1B img {
+	padding-top: 0.5em;
+	max-width: 100%;
+}
+.col_2B {
+	float: none;
+	width: 99%;
+	margin-left: 0.1em;
+	clear: none;	
+}
+.col_3B {
+	float: none;
+	width: 99%;
+	margin-left: 0.1em;
+	clear: none;	
+}
+.col_4B {
+	float: none;
+	width: 99%;
+	margin-right: 0.1em;
+	clear: none;
+}
+footer {
+	clear: both;
+	font-size: 0.8em;
+	margin: 0.3em 0 0.3em 0.1em;	
+}
+}
+
+@media screen and (min-width: 640px){
+
+html {
+	max-width: 870px;
+	max-height: 2500px;
+}
+.col_h {
+	width: 33%;
+	height: 10%;
+	clear: none;
+}
+.col_main-nav {
+	float: right;
+	width: 65%;
+	height: 10%;
+	clear: none;
+}
+.col_main-nav ul {
+	list-style: none;
+}
+.col_main-nav li {
+	float: left;
+}
+.col_main-nav li a {
+	display: block;
+}
+.col_main-nav li li {
+	float: none;
+	border-bottom: 0.1em solid #424ca0;
+}
+.col_main-nav li a:hover {
+	text-decoration: none;
+}
+.col_main-nav li:hover ul {
+	display: block;
+}
+.images img {
+	padding-left: 1.7em;
+}
+.col_2A img {
+	padding-top: 0.5em;
+	max-width: 100%;
+}
+.col_1A {
+	float: left;
+	max-width: 49%;
+}
+.col_2A {
+	float: right;
+	max-width: 49%;
+	margin-left: 0.5em;
+}
+.row_2B {
+	width: 100%;
+	margin: 0.1em 0.3em 0.1em 0.3em;
+	height: 37%;
+}
+.col_3A {
+	float: left;
+	max-width: 49%;	
+	margin-right: 0.5em;
+}
+.col_4A {
+	float: right;
+	max-width: 49%;
+}
+.col_1B {
+	float: left;
+	width: 49%;	
+}
+.col_2B {
+	float: right;
+	width: 49%;
+	margin-left: 0.8em;	
+}
+.col_3B {
+	float: left;
+	width: 49%;
+	margin-left: 0.3em;	
+}
+.col_4B {
+	float: right;
+	width: 49%;
+	margin-right: 0.3em;
+}
+}
+
+@media screen and (min-width: 960px){
+.images img {
+	margin-top: 0.1em;
+	margin-bottom: 0.5em;
+	padding-left: 1.7em;
+	padding-right: 1em;
+}
+.col_1A {
+	width: 24%;
+}
+.col_2A {
+	float: left;
+	width: 24%;
+	margin-left: 0.2em;
+}
+.col_2A img {
+	padding-top: 0.1em;
+}
+.col_3A {
+	width: 24%;
+	margin-left: 0.2em;	
+}
+.col_4A {
+	width: 24%;
+}
+.col_1B {
+	width: 24%;	
+}
+.col_1B img {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.col_2B {
+	float: left;
+	width: 24%;
+	margin-left: 0.2em;	
+}
+.col_3B {
+	width: 24%;
+	margin-left: 0.2em;
+}
+.col_4B {
+	width: 24%;
+}
+}
+<!--CSS for home-page and start of l-l listed-->
