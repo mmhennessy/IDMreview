@@ -103,7 +103,6 @@ h2{
 h3{
   margin-left: 1.3em;
 }
-
 header ul {
   list-style: none;
   max-width: 60%;
@@ -121,13 +120,24 @@ header li ul {
   display: none;
 }
 
+header a {
+  text-decoration: none;
+  color: #214d64;
+}
+
 header li a:hover {
   color: green;
   text-decoration: underline;
 }
 
 header li:hover ul {
+  display: block;
+  position: absolute;
   padding-left: 0.3em;
+}
+
+header li:hover li {
+  float: none;
 }
 
 p{

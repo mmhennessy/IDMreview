@@ -68,6 +68,10 @@ header li:hover li {
 	float: none;
 }
 
+a{
+	text-decoration: none;
+}
+
 p {
 	padding-top: 2em;
 	line-height: 1.4em;

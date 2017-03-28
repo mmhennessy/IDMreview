@@ -1,7 +1,7 @@
 //This page was created with the assistance of the css tricks website.
 $(document).ready(function() {
   $("a").on('click', function() {
-    $(this).css("color", "#424ca0");
+    $(this).css("color", "#90d4ed");
   });
 //This makes a light blue color for links when they are clicked on.
 
