@@ -7,13 +7,13 @@ html{
 h1, h2, h3 {
   font-family: times, serif;
   color: #476121;
-  text-decoration: underline;
 }
 
 h1{
   font-size: 250%;
   max-width: 100%;
   text-align: left;
+  font-style: italic;
 }
 
 h2{
