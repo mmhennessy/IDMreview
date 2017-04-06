@@ -1,0 +1,28 @@
+@media screen and (min-width: 640px) {
+  header button {
+    color: white;
+    background-color: red; }
+
+  header ul {
+    text-align: center;
+    background-color: transparent;
+    border: solid 0.1em green; }
+
+  header ul li {
+    display: inline;
+    padding: 0.5em;
+    color: black }
+
+  header ul li a {
+    color: green; }
+
+  header ul li a:hover {
+    color: gold; }
+
+  .main img {
+    max-width: 45%;
+    padding: 2%; }
+
+  p {
+    line-height: 1.5em; } }
+/*# sourceMappingURL=css.css.map */
