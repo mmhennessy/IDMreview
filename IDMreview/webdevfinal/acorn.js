@@ -1,7 +1,7 @@
 //This page was created with the assistance of the css tricks website.
 $(document).ready(function() {
   $("a").on('click', function() {
-    $(this).css("background-color", "yellow");
+    $(this).css("color", "#207e32");
   });
 //This makes a yellow background for links when they are clicked on.
 

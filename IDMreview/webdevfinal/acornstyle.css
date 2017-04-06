@@ -64,10 +64,14 @@ h2 {
 #slideshow {
 	margin: 75px auto;
 	position: relative;
-	width: 350px;
-	height: 250px;
+	width: 450px;
+	height: 300px;
 	padding: 15px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0, 5);
+}
+
+#slideshow img {
+	max-width: 100%;
 }
 
 #slideshow > div {
@@ -145,6 +149,11 @@ footer {
 	max-width: 100%;
 	float: none;
 }
+
+#slideshow img {
+	max-width: 80%;
+}
+
 .sports {
 	max-width: 100%;
 	float: none;
@@ -186,5 +195,9 @@ footer {
 	}
 	.menu li{
 		margin: 0;
+	}
+
+	#slideshow img {
+		max-width: 75%;
 	}
 }

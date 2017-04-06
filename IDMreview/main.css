@@ -6,7 +6,7 @@
 
 html {
 	margin: auto;
-	border: 0.3em solid #5e99c2;
+	border: 0.3em solid #3fa4ce;
 	background-color: transparent;
 }
 
@@ -91,11 +91,7 @@ p {
 
 @media screen and (min-width: 640px){
 	html {
-	background-color: #5e99c2;
-	}
-
-	body {
-	background-color: #89dbf3;
+		border: transparent;
 	}
 
 	header ul {
@@ -115,6 +111,10 @@ p {
 	p {
 		padding-top: 2.6em; 
 	}
+
+	img {
+		background-color: #89dbf3;
+	}	
 }
 
 @media screen and (min-width: 960px){
