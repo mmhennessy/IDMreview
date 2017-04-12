@@ -154,7 +154,7 @@ footer {
 }
 
 .slideshow img {
-	max-width: 80%;
+	max-width: 70%;
 }
 
 .sports {
@@ -203,8 +203,8 @@ footer {
 		margin: 0;
 	}
 
-	.slideshow img {
-		max-width: 75%;
-	}
+   .slideshow img {
+	    max-width: 55%;
+    }
 
 }

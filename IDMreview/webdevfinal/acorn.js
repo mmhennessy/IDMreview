@@ -1,7 +1,7 @@
 //This page was created with the assistance of the css tricks website.
 $(document).ready(function() {
   $("a").on('click', function() {
-    $(this).css("color", "#207e32");
+    $(this).css("color", "#359c44");
   });
 //This makes a yellow background for links when they are clicked on.
 
@@ -17,7 +17,7 @@ setInterval(function() {
 }, 2000);
 
 
-//Slideshows of images on home and activities pages
+//Slideshows of images on home page
 
 
   $(document).click(function() {

@@ -85,9 +85,8 @@ p {
 }
 
  img {
-	margin: 0em;
-	padding-left: 1em;
-	max-width: 100%;
+	margin-left: 0.7em;
+	max-width: 90%;
 	border: 0.1em solid #3fa4ce;
 }
 
@@ -127,7 +126,8 @@ p {
 	}
 
 	img {
-		margin-left: 1em;
+		max-width: 100%;
+		border: 0.5em solid #3fa4ce;
 	}
 
 }
@@ -142,8 +142,5 @@ p {
  	padding-top: 0.5em;
  }
  
- #work, #camp, #como, #wild {
- 	padding-left: 1em;
- }
 }
 
