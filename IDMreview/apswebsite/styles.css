@@ -5,7 +5,7 @@ html{
 }
 
 h1, h2, h3 {
-  font-family: times, serif;
+  font-family: Century Gothic, serif;
   color: #476121;
 }
 
@@ -13,7 +13,6 @@ h1{
   font-size: 250%;
   max-width: 100%;
   text-align: left;
-  font-style: italic;
 }
 
 h2{
@@ -23,6 +22,10 @@ h2{
 
 h3{
   font-size: 150%;
+}
+
+h1, h2, h3{
+  font-style: italic;
 }
 
 header ul {
@@ -55,7 +58,7 @@ header li:hover li {
 }
 
 p, li{
-  font-family: arial. sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 p{
@@ -65,6 +68,7 @@ p{
 }
 
 #enlarge img {
+  max-width: 90%;
   padding: 0.5em;
   margin-top: 1em;
   transition: 1s ease;
@@ -103,6 +107,7 @@ h2{
 h3{
   margin-left: 1.3em;
 }
+
 header ul {
   list-style: none;
   max-width: 60%;
@@ -148,6 +153,7 @@ p{
 
 #enlarge img{
   margin-left: 1.3em;
+  padding: 1em;
 }
 
 #enlarge img:hover{
@@ -202,25 +208,6 @@ p{
 
 .campfire html {
     background-color: rgba(246,255,246,1);
-}
-
-.campfire #letter {
-    font-size: 120px;
-    font-family: Helvetica;
-    font-weight: Bold;
-    color: rgba(18,22,26,0.7);
-    width: 120px;
-    height: 120px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 120px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -60px;
-    margin-left: -60px;
-    opacity: 1;
-    z-index: 15;
 }
 
 .campfire #description {
@@ -482,4 +469,5 @@ p{
 }
 
 }
+
 

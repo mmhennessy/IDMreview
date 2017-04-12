@@ -61,20 +61,20 @@ h2 {
 .headline h2 {
 	padding-left: 1.3em;
 }
-#slideshow {
+.slideshow {
 	margin: 75px auto;
 	position: relative;
-	width: 450px;
-	height: 300px;
+	width: 600px;
+	height: 400px;
 	padding: 15px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0, 5);
 }
 
-#slideshow img {
+.slideshow img {
 	max-width: 100%;
 }
 
-#slideshow > div {
+.slideshow > div {
 	position: absolute;	
 	top: 10px;
     left: 10px;
@@ -93,14 +93,16 @@ h2 {
 	float: right;
 	padding-right: 1.3em;
 }
-.images{
+
+.cabin {
 	clear: both;
+	padding: 1em 0em 0em 1.3em;
 }
-.images img {
-	margin-top: 1em;
-	padding-right: 3em;
-	padding-left: 3em;
+
+.cabin img {
+	border: 0.5em solid #207e32;
 }
+
 #data {
 	border: 0.1em solid #1b295c;
 }
@@ -124,6 +126,7 @@ h2 {
 .request{
 	padding-left: 1.5em;
 }
+
 footer {
 	font-size: 85%;
 	font-style: italic;
@@ -150,8 +153,8 @@ footer {
 	float: none;
 }
 
-#slideshow img {
-	max-width: 80%;
+.slideshow img {
+	max-width: 70%;
 }
 
 .sports {
@@ -163,6 +166,9 @@ footer {
 	max-width: 100%;
 	float: none;
 	padding: 0;
+}
+ .cabin img {
+	max-width: 80%;
 }
 .request{
 	padding-left: 1.5em;
@@ -197,7 +203,8 @@ footer {
 		margin: 0;
 	}
 
-	#slideshow img {
-		max-width: 75%;
-	}
+   .slideshow img {
+	    max-width: 55%;
+    }
+
 }

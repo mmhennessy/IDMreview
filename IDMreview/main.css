@@ -7,11 +7,11 @@
 html {
 	margin: auto;
 	border: 0.3em solid #3fa4ce;
-	background-color: transparent;
 }
 
 h1 {
 	font-size: 2em;
+	font-style: italic;
 }
 
 h2 {
@@ -31,8 +31,13 @@ h4 {
 }
 
 h1, h2, h3, h4 {
-	font-family: times new roman, serif;
+	font-family: georgia;
+	color: #3fa4ce;
 }
+
+h1, h2, h3, h4, p {
+	padding-left: 0.5em;
+  }
 
 header ul {
 	list-style: none;
@@ -54,9 +59,8 @@ header a {
 	color: inline;
 }
 
-header li a:hover {
-	color: green;
-	text-decoration: underline;
+header li a:hover, h3 a:hover {
+	color: #2e9a4f;
 }
 
 header li:hover ul {
@@ -81,17 +85,22 @@ p {
 }
 
  img {
-	margin: 0em;
-	padding: 0.5em;
-	max-width: 100%;
+	margin-left: 0.7em;
+	max-width: 90%;
+	border: 0.1em solid #3fa4ce;
 }
-
 
 }
 
 @media screen and (min-width: 640px){
+
 	html {
 		border: transparent;
+		background-color: #3fa4ce;
+	}
+
+	body {
+		background-color: #fff;
 	}
 
 	header ul {
@@ -101,7 +110,11 @@ p {
 	header ul li {
 		display: inline-block;
 		padding: 0 1.5em 0 1.5em;
-		border: 0.1em solid black;
+		border: 0.1em solid #3fa4ce;
+	}
+
+	header ul li:hover {
+		font-weight: bold;
 	}
 
 	h3 {
@@ -113,14 +126,13 @@ p {
 	}
 
 	img {
-		background-color: #89dbf3;
-	}	
+		max-width: 100%;
+		border: 0.5em solid #3fa4ce;
+	}
+
 }
 
 @media screen and (min-width: 960px){
-h1, h2, h3, h4, p {
-	padding-left: 0.5em;
-  }
 
  h1 {
  	padding-top: 0.3em; 	
@@ -130,8 +142,5 @@ h1, h2, h3, h4, p {
  	padding-top: 0.5em;
  }
  
- #work, #camp, #como, #wild {
- 	padding-left: 1em;
- }
 }
 
