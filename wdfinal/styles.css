@@ -1,7 +1,13 @@
+html{
+	max-width: 990px;
+	max-height: 2500px;
+}
+
 @media screen and (min-width: 320px){
 
 html {
 	margin: auto;
+	border: 0.3em solid #424ca0;
 }
 h1 {
 	font-family: Helvetica, sans-serif;
@@ -54,16 +60,19 @@ h1 {
 h2 {
 	font-family: verdana, sans-serif;
 	font-size: 130%;
-	color: #a62931;
 	clear: both;
 	padding-top: 1em;
 }	
 h3 {
 	font-size: 1.1em;
 	font-family: Arial, sans-serif;
-	color: #424ca0;
 	margin-bottom: 0px;
 }
+
+h2, h3{
+	color: #424ca0;
+}
+
 p {
 	font-family: Arial, sans-serif;
 	font-size: 0.9em;
@@ -77,14 +86,30 @@ p {
 	margin-bottom: 0.5em;
 	padding-left: 0.5em;
 	padding-right: 1em;
-	max-width: 100%;
+	max-width: 95%;
 }
 .signs img {
 	margin-top: 0.4em;
 	margin-left: 0.1em;
 	padding-left: 0.3em;
 	max-width: 100%;
+	background-color: #424ca0;
 }
+
+.images img:hover, .signs img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 2s ease;
+}
+
+.col_2A img:hover, .col_1B img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+
 .row_2A {
 	width: 100%;
 	margin: 0.1em 0.1em 0.3em 0.1em;
@@ -159,8 +184,15 @@ footer {
 @media screen and (min-width: 640px){
 
 html {
-	max-width: 870px;
-	max-height: 2500px;
+	background-color: #424ca0;
+	border: transparent;
+}
+body{
+	background-color: #fff;
+	padding-left: 0.5em;
+}
+.signs img{
+	padding: 0.7em;
 }
 .col_h {
 	width: 33%;
@@ -243,7 +275,7 @@ html {
 }
 }
 
-@media screen and (min-width: 960px){
+@media screen and (min-width: 900px){
 .images img {
 	margin-top: 0.1em;
 	margin-bottom: 0.5em;
@@ -277,11 +309,11 @@ html {
 }
 .col_2B {
 	float: left;
-	width: 24%;
+	width: 23%;
 	margin-left: 0.2em;	
 }
 .col_3B {
-	width: 24%;
+	width: 23%;
 	margin-left: 0.2em;
 }
 .col_4B {
