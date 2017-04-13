@@ -6,7 +6,7 @@
   header ul {
     text-align: center;
     background-color: transparent;
-    border: solid 0.1em green; }
+    border: solid 0.1em #2c7c17; }
 
   header ul li {
     display: inline;
@@ -14,14 +14,19 @@
     color: black }
 
   header ul li a {
-    color: green; }
+    color: #2c7c17; }
 
   header ul li a:hover {
     color: gold; }
 
+  .main {
+    padding-left: 1em;
+  }  
+
   .main img {
     max-width: 45%;
-    padding: 2%; }
+    padding: 0.5em;
+    background-color: #2c7c17; }
 
   p {
     line-height: 1.5em; } }
