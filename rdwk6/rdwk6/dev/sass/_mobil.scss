@@ -1,0 +1,103 @@
+@media screen and (min-width: 320px) {
+  body {
+    margin: auto; }
+
+  html {
+    background-color: white;
+    border: 0.3em solid #040404; }
+
+  header button {
+    color: white;
+    background-color: red; }
+
+  header ul {
+    text-align: left; }
+
+  header ul li {
+    display: block;
+    font-size: 1em;
+    font-family: Cambria, sans-serif;
+    font-weight: bold;
+    line-height: 0.5em;
+    padding: 0.2em;
+    margin: 0; }
+
+  header ul li a {
+    color: #040404;
+    background-color: transparent;
+    text-decoration: none; }
+
+  header img {
+    max-width: 100%; }
+
+  header ul li a:hover {
+    color: #2c7c17; }
+
+  .main {
+    float: none;
+    max-width: 90%; }
+
+  .main img {
+    max-width: 97%;
+    padding: 1em; }
+
+  #intro {
+    padding-left: 0.7em; } 
+
+  .notes {
+    clear: both; }
+
+  .notes h1, .notes h2, .notes h3{
+    padding-left: 0.7em; }  
+
+  #a {
+    float: none;
+    max-width: 100%; }
+
+  #b {
+    float: none;
+    max-width: 100%; }
+
+  #c {
+    float: none;
+    max-width: 100%; }
+
+ .d img, .e img, .f img{
+    padding-left: 1em;
+  }  
+
+  div img {
+    padding-left: 0.5em; }  
+
+ h1, h2, h3 {
+  padding: 0.3em;
+  color: #2c7c17; }
+  
+  h1 {
+    font-family: times;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.8em; }
+
+  h2, h3 {
+    font-size: 1.5em;
+    font-family: times; }
+
+  h2 {
+    font-weight: bold; } 
+
+  .themes h2 {
+    padding-left: 0.7em; }  
+
+   p, ul li {
+    text-decoration: none;
+    color: #040404; }
+
+  p{
+    padding: 1.2em; } 
+
+  p, li, a {
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em; } }
+/*# sourceMappingURL=css.css.map *

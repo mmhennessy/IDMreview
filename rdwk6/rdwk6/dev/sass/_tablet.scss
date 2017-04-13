@@ -1,0 +1,33 @@
+@media screen and (min-width: 640px) {
+  header button {
+    color: white;
+    background-color: red; }
+
+  header ul {
+    text-align: center;
+    background-color: transparent;
+    border: solid 0.1em #2c7c17; }
+
+  header ul li {
+    display: inline;
+    padding: 0.5em;
+    color: black }
+
+  header ul li a {
+    color: #2c7c17; }
+
+  header ul li a:hover {
+    color: gold; }
+
+  .main {
+    padding-left: 1em;
+  }  
+
+  .main img {
+    max-width: 45%;
+    padding: 0.5em;
+    background-color: #2c7c17; }
+
+  p {
+    line-height: 1.5em; } }
+/*# sourceMappingURL=css.css.map */
