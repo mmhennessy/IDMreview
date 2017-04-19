@@ -86,20 +86,26 @@ p {
 	margin-bottom: 0.5em;
 	padding-left: 0.5em;
 	padding-right: 1em;
-	max-width: 95%;
+	max-width: 93%;
 }
 .signs img {
 	margin-top: 0.4em;
 	margin-left: 0.1em;
 	padding-left: 0.3em;
-	max-width: 100%;
-	background-color: #424ca0;
+	max-width: 90%;
 }
 
-.images img:hover, .signs img:hover{
+.images img:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  transition: 2s ease;
+}
+
+.signs img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   transition: 2s ease;
 }
 
@@ -118,14 +124,12 @@ p {
 .col_1A {
 	float: none;
 	max-width: 99%;
-	margin-left: 0.3em;
-	
+	margin-left: 0.3em;	
 }
 .col_2A {
 	float: none;
 	max-width: 99%;
-	margin-left: 0.3em;
-	
+	margin-left: 0.3em;	
 }
 .col_2A img {
 	padding-top: 0.5em;
@@ -193,6 +197,9 @@ body{
 }
 .signs img{
 	padding: 0.7em;
+}
+.images img, .signs img {
+	max-width: 100%;
 }
 .col_h {
 	width: 33%;
@@ -284,11 +291,13 @@ body{
 }
 .col_1A {
 	width: 24%;
+	padding-right: 0.2em;
 }
 .col_2A {
 	float: left;
 	width: 24%;
 	margin-left: 0.2em;
+	padding-right: 0.2em;
 }
 .col_2A img {
 	padding-top: 0.1em;
@@ -299,9 +308,11 @@ body{
 }
 .col_4A {
 	width: 24%;
+	padding-right: 0.3em;
 }
 .col_1B {
 	width: 24%;	
+	padding-right: 0.2em;
 }
 .col_1B img {
 	margin-top: 1em;
@@ -311,6 +322,7 @@ body{
 	float: left;
 	width: 23%;
 	margin-left: 0.2em;	
+	padding-right: 0.2em;
 }
 .col_3B {
 	width: 23%;
@@ -318,6 +330,7 @@ body{
 }
 .col_4B {
 	width: 24%;
+	padding-right: 0.7em;
 }
 }
 <!--CSS for home-page and start of l-l listed-->

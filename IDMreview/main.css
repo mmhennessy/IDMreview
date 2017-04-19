@@ -35,9 +35,9 @@ h1, h2, h3, h4 {
 	color: #3fa4ce;
 }
 
-h1, h2, h3, h4, p {
-	padding-left: 0.5em;
-  }
+.process h2{
+	padding-top: 1.7em;
+  }	  
 
 header ul {
 	list-style: none;
@@ -61,6 +61,8 @@ header a {
 
 header li a:hover, h3 a:hover {
 	color: #2e9a4f;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 header li:hover ul {
@@ -90,6 +92,9 @@ p {
 	border: 0.1em solid #3fa4ce;
 }
 
+.process img{
+	margin-bottom: 2em;
+}
 }
 
 @media screen and (min-width: 640px){
@@ -101,6 +106,8 @@ p {
 
 	body {
 		background-color: #fff;
+		padding-top: 0.1em;
+		padding-bottom: 0.5em;
 	}
 
 	header ul {
@@ -113,9 +120,13 @@ p {
 		border: 0.1em solid #3fa4ce;
 	}
 
-	header ul li:hover {
-		font-weight: bold;
+	h1, h2, h3, h4, p {
+		padding-left: 0.3em;
 	}
+
+	.process h2{
+		padding-top: 1.7em;
+	}		
 
 	h3 {
 		padding-top: 0.3em;
