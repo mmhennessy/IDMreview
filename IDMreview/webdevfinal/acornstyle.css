@@ -33,7 +33,7 @@ body {
 	text-decoration: none;
 }
 h1, h2 {
-	font-family: georgia, times, Verdana, sans-serif;
+	font-family: georgia;
 	color: #207e32;
 }
 h1 {
@@ -47,11 +47,15 @@ h2 {
 	border-bottom: 0.1em dotted #336748;
 	clear: both;
 }
+
+p {
+	font-family: Helvetica;
+}
 .general {
 	max-width: 45%;
 	float: left;
 	clear: both;
-	padding-left: 2em;
+	padding-left: 1.5em;
 }
 .facts {
 	max-width: 45%;
@@ -59,13 +63,13 @@ h2 {
 	padding-right: 1.3em;
 }
 .headline h2 {
-	padding-left: 1.3em;
+	padding-left: 1em;
 }
 .slideshow {
 	margin: 75px auto;
 	position: relative;
-	width: 600px;
-	height: 400px;
+	width: 900px;
+	height: 600px;
 	padding: 15px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0, 5);
 }
@@ -116,6 +120,7 @@ h2 {
 	padding: 0.5em 0.5em 0.5em 1.5em;
 	margin-bottom: 1em;
 	clear: both;
+	padding-left: 1em;
 }
 .cost {
 	max-width: 45%;
@@ -133,6 +138,12 @@ footer {
 	clear: both;
 }
 
+@media screen and (max-width: 900px){
+
+.slideshow img{
+	max-width: 80%;
+}
+}
 
 @media screen and (max-width: 750px){
 
@@ -151,60 +162,58 @@ footer {
 .facts {
 	max-width: 100%;
 	float: none;
+	padding-left: 1em;
 }
 
 .slideshow img {
-	max-width: 70%;
+	max-width: 60%;
 }
 
 .sports {
 	max-width: 100%;
 	float: none;
-	padding: 0;
 }
 .camp {
 	max-width: 100%;
 	float: none;
-	padding: 0;
+	padding-left: 1.5em;
 }
  .cabin img {
 	max-width: 80%;
 }
-.request{
-	padding-left: 1.5em;
-}
 .levels {
 	max-width: 100%;
 	float: none;
-	padding: 0;
 	margin-bottom: 1em;
+	padding-left: 1.3em;
 }
 .cost {
 	max-width: 100%;
 	float: none;
-	padding: 0; 
+	padding-left: 1em;
 }
 .request {
-	padding: 0;
+	padding-left: 1em;
 }
 }
 
 @media screen and (max-width: 400px){
-	h1{
-		max-width: 100%;
-		float: none;
-	}
-	.menu ul{
-		max-width: 100%;
-		float: left;
-		margin-bottom: 1em;
-	}
-	.menu li{
-		margin: 0;
-	}
+h1{
+	max-width: 100%;
+	float: none;
+}
+.menu ul{
+	max-width: 100%;
+	float: left;
+	margin-bottom: 1em;
+}
+.menu li{
+	margin: 0;
+	padding-left: 1.5em;
+}
 
-   .slideshow img {
-	    max-width: 55%;
-    }
+.slideshow img {
+	 max-width: 35%;
+ }
 
 }
